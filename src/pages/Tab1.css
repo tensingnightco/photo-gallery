@@ -1,0 +1,45 @@
+/* Tab1.css */
+
+/* Container for the grid */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 16px;
+  }
+  
+  /* Individual grid items (images) */
+  .image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    margin-bottom: 8px;
+  }
+
+/* Centered search bar */
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar input {
+    max-width: 400px; /* Adjust the width as needed */
+  }
+
+  .search-bar input::placeholder {
+    text-align: center;
+  }
+
+  .image-insights {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 16px;
+  }
